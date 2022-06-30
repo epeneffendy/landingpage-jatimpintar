@@ -6,93 +6,54 @@
     <meta name="description" content="">
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
     <title>Jatim Pintar</title>
-
-    <!-- Bootstrap core CSS -->
     <link href="{{asset('vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
-
-
-    <!-- Additional CSS Files -->
     <link rel="stylesheet" href="{{asset('/assets/css/fontawesome.css')}}">
-    <link rel="stylesheet" href="{{asset('/assets/css/templatemo-edu-meeting.css')}}">
+    <link rel="stylesheet" href="{{asset('/assets/css/template.css')}}">
     <link rel="stylesheet" href="{{asset('/assets/css/owl.css')}}">
     <link rel="stylesheet" href="{{asset('/assets/css/lightbox.css')}}">
-    <!--
-
-    TemplateMo 569 Edu Meeting
-
-    https://templatemo.com/tm-569-edu-meeting
-
-    -->
+    <link rel="stylesheet" href="{{asset('/assets/css/styles-aos.css')}}"/>
+    <link rel="stylesheet" href="{{asset('/assets/css/aos.css')}}"/>
 </head>
 
 <body>
 
-<!-- Sub Header -->
-
-
-<!-- ***** Header Area Start ***** -->
-<header class="header-area header-sticky">
+<header class="header-area header-sticky" data-aos="fade-down">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <nav class="main-nav">
-                    <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
-                        Jatim Pintar
+                    <a href="#" class="logo">
+                        <img src="{{asset('assets/images/logo.png')}}" alt="Jatim Pintar">
                     </a>
-                    <!-- ***** Logo End ***** -->
-                    <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                         <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                        <li><a href="#abouts">abouts</a></li>
-                        <li class="scroll-to-section"><a href="#apply">Apply Now</a></li>
-                        <li class="has-sub">
-                            <a href="javascript:void(0)">Pages</a>
-                            <ul class="sub-menu">
-                                <li><a href="meetings.html">Upcoming Meetings</a></li>
-                                <li><a href="meeting-details.html">Meeting Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="scroll-to-section"><a href="#courses">Courses</a></li>
-                        <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>
+                        <li><a href="#abouts">Tentang</a></li>
+                        <li><a href="#berita">Berita</a></li>
                     </ul>
                     <a class='menu-trigger'>
                         <span>Menu</span>
                     </a>
-                    <!-- ***** Menu End ***** -->
                 </nav>
             </div>
         </div>
     </div>
 </header>
-<!-- ***** Header Area End ***** -->
-
-<!-- ***** Main Banner Area Start ***** -->
 <section class="section main-banner" id="top" data-section="section1">
     <video autoplay muted loop id="bg-video">
-        <source src="{{asset('assets/images/course-video.mp4')}}" type="video/mp4"/>
+        <source src="{{asset('assets/images/course-video-01.mp4')}}" type="video/mp4"/>
     </video>
 
-{{--    <div class="video-overlay header-text">--}}
-{{--        --}}
-{{--    </div>--}}
 </section>
-<!-- ***** Main Banner Area End ***** -->
-
 @yield('content')
 
 <div class="footer">
-    <p>© Dinas Perumahan Rakyat, Kawasan Permukiman dan Cipta Karya.
-        <br>Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a></p>
+    <p>© Dinas Perumahan Rakyat, Kawasan Permukiman dan Cipta Karya. </p>
 </div>
 </section>
 
-<!-- Scripts -->
-<!-- Bootstrap core JavaScript -->
+<script src="{{asset('/assets/js/aos.js')}}"></script>
 <script src="{{asset('/vendor/jquery/jquery.min.js')}}"></script>
-
 <script src="{{asset('/assets/js/isotope.min.js')}}"></script>
 <script src="{{asset('/assets/js/owl-carousel.js')}}"></script>
 <script src="{{asset('/assets/js/lightbox.js')}}"></script>
@@ -101,6 +62,10 @@
 <script src="{{asset('/assets/js/slick-slider.js')}}"></script>
 <script src="{{asset('/assets/js/custom.js')}}"></script>
 <script>
+    AOS.init({
+        easing: 'ease-in-out-sine'
+    });
+
     //according to loftblog tut
     $('.nav li:first').addClass('active');
 
@@ -112,7 +77,8 @@
 
         if (isAnimate) {
             $('body, html').animate({
-                    scrollTop: reqSectionPos },
+                    scrollTop: reqSectionPos
+                },
                 800);
         } else {
             $('body, html').scrollTop(reqSectionPos);
@@ -131,8 +97,7 @@
                 var
                     currentId = $this.data('section'),
                     reqLink = $('a').filter('[href*=\\#' + currentId + ']');
-                reqLink.closest('li').addClass('active').
-                siblings().removeClass('active');
+                reqLink.closest('li').addClass('active').siblings().removeClass('active');
             }
         });
     };

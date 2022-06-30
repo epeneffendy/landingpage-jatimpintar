@@ -9,56 +9,55 @@
 
                         <div class="item">
                             <div class="icon">
-                                <img src="assets/images/service-icon-01.png" alt="">
+                                <img src="{{asset('assets/images/tata-ruang.png')}}" alt="">
                             </div>
                             <div class="down-content">
-                                <h4>Best Education</h4>
-                                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non
-                                    vestibulum.</p>
+                                <h4>Sistem Informasi Rencana Tata Ruang</h4>
                             </div>
                         </div>
 
                         <div class="item">
                             <div class="icon">
-                                <img src="assets/images/service-icon-02.png" alt="">
+                                <img src="{{asset('assets/images/rtrw.png')}}" alt="">
                             </div>
                             <div class="down-content">
-                                <h4>Best Teachers</h4>
-                                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non
-                                    vestibulum.</p>
+                                <h4>Progress Penyelesaian RTRW & RDTR</h4>
                             </div>
                         </div>
 
                         <div class="item">
                             <div class="icon">
-                                <img src="assets/images/service-icon-03.png" alt="">
+                                <img src="{{asset('assets/images/simesi.png')}}" alt="">
                             </div>
                             <div class="down-content">
-                                <h4>Best Students</h4>
-                                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non
-                                    vestibulum.</p>
+                                <h4>SIMESI</h4>
                             </div>
                         </div>
 
                         <div class="item">
                             <div class="icon">
-                                <img src="assets/images/service-icon-02.png" alt="">
+                                <img src="{{asset('assets/images/library.png')}}" alt="">
                             </div>
                             <div class="down-content">
-                                <h4>Online Meeting</h4>
-                                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non
-                                    vestibulum.</p>
+                                <h4>Library</h4>
                             </div>
                         </div>
 
                         <div class="item">
                             <div class="icon">
-                                <img src="assets/images/service-icon-03.png" alt="">
+                                <img src="{{asset('assets/images/indikator.png')}}" alt="">
                             </div>
                             <div class="down-content">
-                                <h4>Best Networking</h4>
-                                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non
-                                    vestibulum.</p>
+                                <h4>Indikator Kinerja Penataan Ruang</h4>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="icon">
+                                <img src="{{asset('assets/images/icon_news.png')}}" alt="">
+                            </div>
+                            <div class="down-content">
+                                <h4>Berita Tata Ruan</h4>
                             </div>
                         </div>
 
@@ -73,14 +72,16 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading">
-                        <h2>Sistem Informasi Tata Ruang Provinsi Jawa Timur</h2>
+                        <h2 data-aos="zoom-out-right">Sistem Informasi Tata Ruang Provinsi Jawa Timur</h2>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="categories">
+                    <div class="categories" data-aos="zoom-in">
                         <h4>Sistem Informasi Tata Ruang Provinsi Jawa Timur</h4>
-                        <p>Visualisasi Peta dari Data dan Informasi Geospasial Tata Ruang RTRW (Rencana Tata Ruang Wilayah)
-                            Provinsi Jawa Timur RTRW 38 Kabupaten/Kota se Jawa Timur, dan RDTR (Rencana Detail Tata Ruang)
+                        <p>Visualisasi Peta dari Data dan Informasi Geospasial Tata Ruang RTRW (Rencana Tata Ruang
+                            Wilayah)
+                            Provinsi Jawa Timur RTRW 38 Kabupaten/Kota se Jawa Timur, dan RDTR (Rencana Detail Tata
+                            Ruang)
                             serta Peta Tematik Provinsi Jawa Timur</p>
                         <div class="main-button-red">
                             <a href="meetings.html">Next To Explore</a>
@@ -90,9 +91,9 @@
                 <div class="col-lg-8">
                     <div class="row">
                         <div class="col-lg-12">
-                            <div class="meeting-item">
+                            <div class="meeting-item" data-aos="zoom-in">
                                 <div class="thumb">
-                                    <img src="assets/images/meeting-01.jpg" alt="New Lecturer Meeting">
+                                    <img src="{{asset('assets/images/content-01.jpg')}}" alt="About">
                                 </div>
                             </div>
                         </div>
@@ -104,341 +105,121 @@
     </section>
 
     <section class="apply-now" id="apply">
-        <div class="container">
+        <div class="container" data-aos="zoom-in">
             <div class="row">
-                <div class="col-lg-6 align-self-center">
-
+                <div class="col-lg-12 align-self-center">
+                    <div class="col-lg-12">
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h3>Smart Monitoring Aset</h3>
+                                    <p>Pengelolaan Aset Desa merupakan rangkaian kegiatan mulai dari perencanaan,
+                                        pengadaan, penggunaan, pemanfaatan, pengamanan, pemeliharaan, penghapusan,
+                                        pemindahtanganan, penatausahaan, pelaporan, penilaian, pembinaan, pengawasan,
+                                        dan pengendalian aset Desa.
+                                        Pengelolaan data secara digital dapat berpengaruh besar terhadap manajemen aset.
+                                        Pengelolaan secara digital diharapkan dapat memberikan manfaat lebih bagi kota
+                                        dalam pengawasan tanah aset desa secara realtime maupun periodik. Seperti
+                                        diamanatkan dalam UU Desa dan turunannya PP 47/2015 (perubahan PP 43/2014)
+                                        SiTAS memberikan kemudahan dalam menyimpan data digital (Aset Digital) berupa
+                                        lokasi (berkoordinat GPS),data yuridis dan kelengkapannya, serta data
+                                        dokumentasi foto tanah aset.
+                                        SiTAS dengan mudah memonitoring keberadaan tanah aset desa.</p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <img src="{{asset('assets/images/content-01.jpg')}}" alt="About">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-6">
-                    
+            </div>
+        </div>
+
+        <div class="container" data-aos="zoom-in">
+            <div class="row">
+                <div class="col-lg-12 align-self-center">
+                    <div class="col-lg-12">
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <img src="{{asset('assets/images/content-01.jpg')}}" alt="New Lecturer Meeting">
+                                </div>
+                                <div class="col-lg-6">
+                                    <h3>Jatim Pintah In Android</h3>
+                                    <p>Visualisasi Peta dari Data dan Informasi Geospasial Tata Ruang RTRW (Rencana Tata
+                                        Ruang
+                                        Wilayah)
+                                        Provinsi Jawa Timur RTRW 38 Kabupaten/Kota se Jawa Timur, dan RDTR (Rencana
+                                        Detail Tata
+                                        Ruang)
+                                        serta Peta Tematik Provinsi Jawa Timur.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="our-courses" id="courses">
+    <section class="our-berita" id="berita">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading">
-                        <h2>Our Popular Courses</h2>
+                        <h2>Berita</h2>
                     </div>
                 </div>
                 <div class="col-lg-12">
                     <div class="owl-courses-item owl-carousel">
                         <div class="item">
-                            <img src="assets/images/course-01.jpg" alt="Course One">
+                            <img src="{{asset('assets/images/berita_1.jpg')}}" alt="Course One">
                             <div class="down-content">
-                                <h4>Morbi tincidunt elit vitae justo rhoncus</h4>
-                                <div class="info">
-                                    <div class="row">
-                                        <div class="col-8">
-                                            <ul>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-4">
-                                            <span>$160</span>
-                                        </div>
-                                    </div>
-                                </div>
+                                <a href="#"><h4>Sandiaga Uno Resmikan Smart Tourism & Infrastructure Hospitality Unmer
+                                        Malang</h4></a>
                             </div>
                         </div>
                         <div class="item">
-                            <img src="assets/images/course-02.jpg" alt="Course Two">
+                            <img src="{{asset('assets/images/berita_2.jpg')}}" alt="Course Two">
                             <div class="down-content">
-                                <h4>Curabitur molestie dignissim purus vel</h4>
-                                <div class="info">
-                                    <div class="row">
-                                        <div class="col-8">
-                                            <ul>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-4">
-                                            <span>$180</span>
-                                        </div>
-                                    </div>
-                                </div>
+                                <a href="#"><h4>Mbak Cicha Buka Prodi S1 Keperawatan dan Profesi Ners Stikes Pamenang
+                                        Kediri</h4></a>
                             </div>
                         </div>
                         <div class="item">
-                            <img src="assets/images/course-03.jpg" alt="">
+                            <img src="{{asset('assets/images/berita_3.jpg')}}" alt="">
                             <div class="down-content">
-                                <h4>Nulla at ipsum a mauris egestas tempor</h4>
-                                <div class="info">
-                                    <div class="row">
-                                        <div class="col-8">
-                                            <ul>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-4">
-                                            <span>$140</span>
-                                        </div>
-                                    </div>
-                                </div>
+                                <a href="#"><h4>Sambut Hari Jadi Kota Kediri ke-1143, RSUD Kilisuci Berikan Layanan
+                                        Khitan Gratis</h4></a>
                             </div>
                         </div>
                         <div class="item">
-                            <img src="assets/images/course-04.jpg" alt="">
+                            <img src="{{asset('assets/images/berita_4.jpg')}}" alt="">
                             <div class="down-content">
-                                <h4>Aenean molestie quis libero gravida</h4>
-                                <div class="info">
-                                    <div class="row">
-                                        <div class="col-8">
-                                            <ul>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-4">
-                                            <span>$120</span>
-                                        </div>
-                                    </div>
-                                </div>
+                                <a href="#"><h4>Kukuhkan Duta Stunting Kota Kediri, Bunda Fey: Menangani Stunting Harus
+                                        Kerjasama</h4></a>
                             </div>
                         </div>
                         <div class="item">
-                            <img src="assets/images/course-01.jpg" alt="">
+                            <img src="{{asset('assets/images/berita_5.jpg')}}" alt="">
                             <div class="down-content">
-                                <h4>Lorem ipsum dolor sit amet adipiscing elit</h4>
-                                <div class="info">
-                                    <div class="row">
-                                        <div class="col-8">
-                                            <ul>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-4">
-                                            <span>$250</span>
-                                        </div>
-                                    </div>
-                                </div>
+                                <a href="#"><h4>Keluh Kesah Peternak Sapi Perah, Produksi Susu Berkurang Karena PMK</h4>
+                                </a>
                             </div>
                         </div>
                         <div class="item">
-                            <img src="assets/images/course-02.jpg" alt="">
+                            <img src="{{asset('assets/images/berita_6.jpg')}}" alt="">
                             <div class="down-content">
-                                <h4>TemplateMo is the best website for Free CSS</h4>
-                                <div class="info">
-                                    <div class="row">
-                                        <div class="col-8">
-                                            <ul>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-4">
-                                            <span>$270</span>
-                                        </div>
-                                    </div>
-                                </div>
+                                <a href="#"><h4>PPDB Jalur Zonasi SMP di Gresik Masih Banyak Permasalahan</h4></a>
                             </div>
                         </div>
                         <div class="item">
-                            <img src="assets/images/course-03.jpg" alt="">
+                            <img src="{{asset('assets/images/berita_7.jpg')}}" alt="">
                             <div class="down-content">
-                                <h4>Web Design Templates at your finger tips</h4>
-                                <div class="info">
-                                    <div class="row">
-                                        <div class="col-8">
-                                            <ul>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-4">
-                                            <span>$340</span>
-                                        </div>
-                                    </div>
-                                </div>
+                                <a href="#"><h4>Polres Malang Percepat Vaksinasi Hewan Ternak</h4></a>
                             </div>
                         </div>
-                        <div class="item">
-                            <img src="assets/images/course-04.jpg" alt="">
-                            <div class="down-content">
-                                <h4>Please visit our website again</h4>
-                                <div class="info">
-                                    <div class="row">
-                                        <div class="col-8">
-                                            <ul>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-4">
-                                            <span>$360</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="assets/images/course-01.jpg" alt="">
-                            <div class="down-content">
-                                <h4>Responsive HTML Templates for you</h4>
-                                <div class="info">
-                                    <div class="row">
-                                        <div class="col-8">
-                                            <ul>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-4">
-                                            <span>$400</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="assets/images/course-02.jpg" alt="">
-                            <div class="down-content">
-                                <h4>Download Free CSS Layouts for your business</h4>
-                                <div class="info">
-                                    <div class="row">
-                                        <div class="col-8">
-                                            <ul>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-4">
-                                            <span>$430</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="assets/images/course-03.jpg" alt="">
-                            <div class="down-content">
-                                <h4>Morbi in libero blandit lectus cursus</h4>
-                                <div class="info">
-                                    <div class="row">
-                                        <div class="col-8">
-                                            <ul>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-4">
-                                            <span>$480</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="assets/images/course-04.jpg" alt="">
-                            <div class="down-content">
-                                <h4>Curabitur molestie dignissim purus</h4>
-                                <div class="info">
-                                    <div class="row">
-                                        <div class="col-8">
-                                            <ul>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-4">
-                                            <span>$560</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="our-facts">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h2>A Few Facts About Our University</h2>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="count-area-content percentage">
-                                        <div class="count-digit">94</div>
-                                        <div class="count-title">Succesed Students</div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="count-area-content">
-                                        <div class="count-digit">126</div>
-                                        <div class="count-title">Current Teachers</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="count-area-content new-students">
-                                        <div class="count-digit">2345</div>
-                                        <div class="count-title">New Students</div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="count-area-content">
-                                        <div class="count-digit">32</div>
-                                        <div class="count-title">Awards</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 align-self-center">
-                    <div class="video">
-                        <a href="https://www.youtube.com/watch?v=HndV87XpkWg" target="_blank"><img
-                                src="assets/images/play-icon.png" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -447,77 +228,34 @@
 
     <section class="contact-us" id="contact">
         <div class="container">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h2>Kontak</h2>
+                </div>
+            </div>
             <div class="row">
-                <div class="col-lg-9 align-self-center">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <form id="contact" action="" method="post">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <h2>Let's get in touch</h2>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <fieldset>
-                                            <input name="name" type="text" id="name" placeholder="YOURNAME...*"
-                                                   required="">
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <fieldset>
-                                            <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*"
-                                                   placeholder="YOUR EMAIL..." required="">
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <fieldset>
-                                            <input name="subject" type="text" id="subject" placeholder="SUBJECT...*"
-                                                   required="">
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <fieldset>
-                                            <textarea name="message" type="text" class="form-control" id="message"
-                                                      placeholder="YOUR MESSAGE..." required=""></textarea>
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <fieldset>
-                                            <button type="submit" id="form-submit" class="button">SEND MESSAGE NOW
-                                            </button>
-                                        </fieldset>
-                                    </div>
-                                </div>
-                            </form>
+                <div class="col-md-4">
+                    <div id="contact" data-aos="zoom-in">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h2>Detail Informasi</h2>
+                            </div>
+                            <p>Jl. Gayung kebonsari No. 169, Gayungan, Kec. Gayungan, Kota Surabaya, Jawa Timur 60235</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="right-info">
-                        <ul>
-                            <li>
-                                <h6>Phone Number</h6>
-                                <span>010-020-0340</span>
-                            </li>
-                            <li>
-                                <h6>Email Address</h6>
-                                <span>info@meeting.edu</span>
-                            </li>
-                            <li>
-                                <h6>Street Address</h6>
-                                <span>Rio de Janeiro - RJ, 22795-008, Brazil</span>
-                            </li>
-                            <li>
-                                <h6>Website URL</h6>
-                                <span>www.meeting.edu</span>
-                            </li>
-                        </ul>
+                <div class="col-md-8">
+                    <div id="map" data-aos="zoom-in">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15828.879393898524!2d112.7287316!3d-7.3291875!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf313af7f2b05be03!2sDinas%20Perumahan%20Rakyat%2C%20Kawasan%20Permukiman%20dan%20Cipta%20Karya%20Provinsi%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1656546663527!5m2!1sid!2sid"
+                            width="100%" height="422px" frameborder="0" style="border:0"
+                            allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
+
         </div>
-
         @endsection
-
         @section('jquery')
             <script></script>
 @endsection
