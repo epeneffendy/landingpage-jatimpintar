@@ -39,11 +39,27 @@
         </div>
     </div>
 </header>
+
 <section class="section main-banner" id="top" data-section="section1">
     <video autoplay muted loop id="bg-video">
         <source src="{{asset('assets/images/course-video-01.mp4')}}" type="video/mp4"/>
     </video>
-
+    <div class="video-overlay header-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="caption" data-aos="fade-right">
+                        <hr style="color: white; width: 1000px; font-weight: bold; border: 1px solid">
+                        <h2>STIR JAWA TIMUR</h2>
+                        <h3>Sistem Informasi Tata Ruang Provinsi Jawa Timur</h3>
+                        <div class="main-button-red">
+                            <a href="https://jatim-pintar.com/webgis/main"  target="_blank"><div class="scroll-to-section">Go To Map!</div></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 @yield('content')
 

@@ -1,72 +1,6 @@
 @extends('layout.master')
 @section('content')
 
-    <section class="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="owl-service-item owl-carousel">
-
-                        <div class="item">
-                            <div class="icon">
-                                <img src="{{asset('assets/images/tata-ruang.png')}}" alt="">
-                            </div>
-                            <div class="down-content">
-                                <h4>Sistem Informasi Rencana Tata Ruang</h4>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="icon">
-                                <img src="{{asset('assets/images/rtrw.png')}}" alt="">
-                            </div>
-                            <div class="down-content">
-                                <h4>Progress Penyelesaian RTRW & RDTR</h4>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="icon">
-                                <img src="{{asset('assets/images/simesi.png')}}" alt="">
-                            </div>
-                            <div class="down-content">
-                                <h4>SIMESI</h4>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="icon">
-                                <img src="{{asset('assets/images/library.png')}}" alt="">
-                            </div>
-                            <div class="down-content">
-                                <h4>Library</h4>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="icon">
-                                <img src="{{asset('assets/images/indikator.png')}}" alt="">
-                            </div>
-                            <div class="down-content">
-                                <h4>Indikator Kinerja Penataan Ruang</h4>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="icon">
-                                <img src="{{asset('assets/images/icon_news.png')}}" alt="">
-                            </div>
-                            <div class="down-content">
-                                <h4>Berita Tata Ruan</h4>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="abouts" id="abouts">
         <div class="container">
             <div class="row">
@@ -75,29 +9,102 @@
                         <h2 data-aos="zoom-out-right">Sistem Informasi Tata Ruang Provinsi Jawa Timur</h2>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="categories" data-aos="zoom-in">
-                        <h4>Sistem Informasi Tata Ruang Provinsi Jawa Timur</h4>
-                        <p>Visualisasi Peta dari Data dan Informasi Geospasial Tata Ruang RTRW (Rencana Tata Ruang
-                            Wilayah)
-                            Provinsi Jawa Timur RTRW 38 Kabupaten/Kota se Jawa Timur, dan RDTR (Rencana Detail Tata
-                            Ruang)
-                            serta Peta Tematik Provinsi Jawa Timur</p>
-                        <div class="main-button-red">
-                            <a href="meetings.html">Next To Explore</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="meeting-item" data-aos="zoom-in">
-                                <div class="thumb">
-                                    <img src="{{asset('assets/images/content-01.jpg')}}" alt="About">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="count-area-content percentage" data-aos="zoom-in">
+                                            <div class="icon" style="max-width: 60px;margin: 0 auto">
+                                                <img src="{{asset('assets/images/tata-ruang.png')}}" alt="">
+                                            </div>
+                                            <div class="count-title">Sistem Informasi Rencana Tata Ruang</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="count-area-content" data-aos="zoom-in">
+                                            <div class="icon" style="max-width: 60px;margin: 0 auto">
+                                                <img src="{{asset('assets/images/rtrw.png')}}" alt="">
+                                            </div>
+                                            <div class="count-title">Progress Penyelesaian RTRW & RDTR</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="count-area-content" data-aos="zoom-in">
+                                            <div class="icon" style="max-width: 60px;margin: 0 auto">
+                                                <img src="{{asset('assets/images/simesi.png')}}" alt="">
+                                            </div>
+                                            <div class="count-title">SIMESI</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="count-area-content" data-aos="zoom-in">
+                                            <div class="icon" style="max-width: 60px;margin: 0 auto">
+                                                <img src="{{asset('assets/images/library.png')}}" alt="">
+                                            </div>
+                                            <div class="count-title">Library</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="count-area-content" data-aos="zoom-in">
+                                            <div class="icon" style="max-width: 60px;margin: 0 auto">
+                                                <img src="{{asset('assets/images/indikator.png')}}" alt="">
+                                            </div>
+                                            <div class="count-title">Indikator Kinerja Penataan Ruang</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="count-area-content" data-aos="zoom-in">
+                                            <div class="icon" style="max-width: 60px;margin: 0 auto">
+                                                <img src="{{asset('assets/images/icon_news.png')}}" alt="">
+                                            </div>
+                                            <div class="count-title">Berita Tata Ruang</div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
 
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="categories" data-aos="zoom-in">
+                            <h4>Sistem Informasi Tata Ruang Provinsi Jawa Timur</h4>
+                            <p>Visualisasi Peta dari Data dan Informasi Geospasial Tata Ruang RTRW (Rencana Tata Ruang
+                                Wilayah)
+                                Provinsi Jawa Timur RTRW 38 Kabupaten/Kota se Jawa Timur, dan RDTR (Rencana Detail Tata
+                                Ruang)
+                                serta Peta Tematik Provinsi Jawa Timur</p>
+{{--                            <div class="main-button-red">--}}
+{{--                                <a href="meetings.html">Next To Explore</a>--}}
+{{--                            </div>--}}
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="meeting-item" data-aos="zoom-in">
+                                    <div class="thumb">
+                                        <img src="{{asset('assets/images/content-01.jpg')}}" alt="About">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
