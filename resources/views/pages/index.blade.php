@@ -13,55 +13,59 @@
                 </div>
 
                 <div class="row" style="text-align: center">
-                    <div class="col-md-2">
-                        <div class="polaroid" style="text-align: center;">
-                            <img src="{{asset('assets/images/test_1.png')}}" alt="About">
-                            <div class="container">
-                                <h6 style="color: white;">Sistem Informasi Rencana Tata Ruang</h6>
+                    <div class="owl-courses-item owl-carousel">
+                        <div class="item">
+                            <div class="polaroid" style="text-align: center; width: 75%">
+                                <img src="{{asset('assets/images/test_1.png')}}" alt="About">
+                                <div class="container">
+                                    <h6 style="color: white;">Sistem Informasi Rencana Tata Ruang</h6>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="polaroid">
-                            <img src="{{asset('assets/images/test_2.png')}}" alt="About">
-                            <div class="container">
-                                <h6 style="color: white;">SIMESI</h6>
+                        <div class="item">
+                            <div class="polaroid" style="text-align: center; width: 75%">
+                                <img src="{{asset('assets/images/test_2.png')}}" alt="About">
+                                <div class="container">
+                                    <h6 style="color: white;">SIMESI</h6>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="polaroid">
-                            <img src="{{asset('assets/images/test_3.png')}}" alt="About">
-                            <div class="container">
-                                <h6 style="color: white;">Indikator Kinerja Penataan Ruang</h6>
+                        <div class="item">
+                            <div class="polaroid" style="text-align: center; width: 75%">
+                                <img src="{{asset('assets/images/test_3.png')}}" alt="About">
+                                <div class="container">
+                                    <h6 style="color: white;">Indikator Kinerja Penataan Ruang</h6>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="polaroid" style="text-align: center;">
-                            <img src="{{asset('assets/images/test_1.png')}}" alt="About">
-                            <div class="container">
-                                <h6 style="color: white;">Progress Penyelesaian RTRW & RDTR</h6>
+                        <div class="item">
+                            <div class="polaroid" style="text-align: center; width: 75%">
+                                <img src="{{asset('assets/images/test_1.png')}}" alt="About">
+                                <div class="container">
+                                    <h6 style="color: white;">Progress Penyelesaian RTRW & RDTR </h6>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="polaroid">
-                            <img src="{{asset('assets/images/test_2.png')}}" alt="About">
-                            <div class="container">
-                                <h6 style="color: white;">Library</h6>
+                        <div class="item">
+                            <div class="polaroid" style="text-align: center; width: 75%">
+                                <img src="{{asset('assets/images/test_2.png')}}" alt="About">
+                                <div class="container">
+                                    <h6 style="color: white;">Library</h6>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="polaroid">
-                            <img src="{{asset('assets/images/test_3.png')}}" alt="About">
-                            <div class="container">
-                                <h6 style="color: white;">Berita Tata Ruang</h6>
+                        <div class="item">
+                            <div class="polaroid" style="text-align: center; width: 75%">
+                                <img src="{{asset('assets/images/test_3.png')}}" alt="About">
+                                <div class="container">
+                                    <h6 style="color: white;">Berita Tata Ruang </h6>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
 
                 <div class="row">
                     <div class="col-lg-4">
