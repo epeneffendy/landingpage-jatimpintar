@@ -4,79 +4,62 @@
     <section class="abouts" id="abouts">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-heading">
-                        <h2 data-aos="zoom-out-right">Sistem Informasi Tata Ruang Provinsi Jawa Timur</h2>
-                    </div>
-                </div>
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="count-area-content percentage" data-aos="zoom-in">
-                                            <div class="icon" style="max-width: 60px;margin: 0 auto">
-                                                <img src="{{asset('assets/images/tata-ruang.png')}}" alt="">
-                                            </div>
-                                            <div class="count-title">Sistem Informasi Rencana Tata Ruang</div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="count-area-content" data-aos="zoom-in">
-                                            <div class="icon" style="max-width: 60px;margin: 0 auto">
-                                                <img src="{{asset('assets/images/rtrw.png')}}" alt="">
-                                            </div>
-                                            <div class="count-title">Progress Penyelesaian RTRW & RDTR</div>
-                                        </div>
-                                    </div>
+                        <div class="section-heading">
+                            <h2 data-aos="zoom-out-right">Sistem Informasi Tata Ruang Provinsi Jawa Timur</h2>
+                        </div>
+                    </div>
+                </div>
 
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="count-area-content" data-aos="zoom-in">
-                                            <div class="icon" style="max-width: 60px;margin: 0 auto">
-                                                <img src="{{asset('assets/images/simesi.png')}}" alt="">
-                                            </div>
-                                            <div class="count-title">SIMESI</div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="count-area-content" data-aos="zoom-in">
-                                            <div class="icon" style="max-width: 60px;margin: 0 auto">
-                                                <img src="{{asset('assets/images/library.png')}}" alt="">
-                                            </div>
-                                            <div class="count-title">Library</div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="count-area-content" data-aos="zoom-in">
-                                            <div class="icon" style="max-width: 60px;margin: 0 auto">
-                                                <img src="{{asset('assets/images/indikator.png')}}" alt="">
-                                            </div>
-                                            <div class="count-title">Indikator Kinerja Penataan Ruang</div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="count-area-content" data-aos="zoom-in">
-                                            <div class="icon" style="max-width: 60px;margin: 0 auto">
-                                                <img src="{{asset('assets/images/icon_news.png')}}" alt="">
-                                            </div>
-                                            <div class="count-title">Berita Tata Ruang</div>
-                                        </div>
-                                    </div>
-
-                                </div>
+                <div class="row" style="text-align: center">
+                    <div class="col-md-2">
+                        <div class="polaroid" style="text-align: center;">
+                            <img src="{{asset('assets/images/test_1.png')}}" alt="About">
+                            <div class="container">
+                                <h6 style="color: white;">Sistem Informasi Rencana Tata Ruang</h6>
                             </div>
                         </div>
-
+                    </div>
+                    <div class="col-md-2">
+                        <div class="polaroid">
+                            <img src="{{asset('assets/images/test_2.png')}}" alt="About">
+                            <div class="container">
+                                <h6 style="color: white;">SIMESI</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="polaroid">
+                            <img src="{{asset('assets/images/test_3.png')}}" alt="About">
+                            <div class="container">
+                                <h6 style="color: white;">Indikator Kinerja Penataan Ruang</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="polaroid" style="text-align: center;">
+                            <img src="{{asset('assets/images/test_1.png')}}" alt="About">
+                            <div class="container">
+                                <h6 style="color: white;">Progress Penyelesaian RTRW & RDTR</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="polaroid">
+                            <img src="{{asset('assets/images/test_2.png')}}" alt="About">
+                            <div class="container">
+                                <h6 style="color: white;">Library</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="polaroid">
+                            <img src="{{asset('assets/images/test_3.png')}}" alt="About">
+                            <div class="container">
+                                <h6 style="color: white;">Berita Tata Ruang</h6>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -89,9 +72,9 @@
                                 Provinsi Jawa Timur RTRW 38 Kabupaten/Kota se Jawa Timur, dan RDTR (Rencana Detail Tata
                                 Ruang)
                                 serta Peta Tematik Provinsi Jawa Timur</p>
-{{--                            <div class="main-button-red">--}}
-{{--                                <a href="meetings.html">Next To Explore</a>--}}
-{{--                            </div>--}}
+                            {{--                            <div class="main-button-red">--}}
+                            {{--                                <a href="meetings.html">Next To Explore</a>--}}
+                            {{--                            </div>--}}
                         </div>
                     </div>
                     <div class="col-lg-8">
@@ -247,16 +230,17 @@
                             <div class="col-lg-12">
                                 <h2>Detail Informasi</h2>
                             </div>
-                            <p>Jl. Gayung kebonsari No. 169, Gayungan, Kec. Gayungan, Kota Surabaya, Jawa Timur 60235</p>
+                            <p>Jl. Gayung kebonsari No. 169, Gayungan, Kec. Gayungan, Kota Surabaya, Jawa Timur
+                                60235</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-8">
                     <div id="map" data-aos="zoom-in">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15828.879393898524!2d112.7287316!3d-7.3291875!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf313af7f2b05be03!2sDinas%20Perumahan%20Rakyat%2C%20Kawasan%20Permukiman%20dan%20Cipta%20Karya%20Provinsi%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1656546663527!5m2!1sid!2sid"
-                            width="100%" height="422px" frameborder="0" style="border:0"
-                            allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15828.879393898524!2d112.7287316!3d-7.3291875!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf313af7f2b05be03!2sDinas%20Perumahan%20Rakyat%2C%20Kawasan%20Permukiman%20dan%20Cipta%20Karya%20Provinsi%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1656546663527!5m2!1sid!2sid"
+                                width="100%" height="422px" frameborder="0" style="border:0"
+                                allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
