@@ -65,35 +65,99 @@
                     </div>
                 </div>
 
-
-
                 <div class="row">
-                    <div class="col-lg-4">
-                        <div class="categories" data-aos="zoom-in">
-                            <h4>Sistem Informasi Tata Ruang Provinsi Jawa Timur</h4>
-                            <p>Visualisasi Peta dari Data dan Informasi Geospasial Tata Ruang RTRW (Rencana Tata Ruang
-                                Wilayah)
-                                Provinsi Jawa Timur RTRW 38 Kabupaten/Kota se Jawa Timur, dan RDTR (Rencana Detail Tata
-                                Ruang)
-                                serta Peta Tematik Provinsi Jawa Timur</p>
-                            {{--                            <div class="main-button-red">--}}
-                            {{--                                <a href="meetings.html">Next To Explore</a>--}}
-                            {{--                            </div>--}}
+                    <div class="col-md-6">
+                        <div class="row">
+
+                            <div class="categories" data-aos="zoom-in">
+                                <h4>Sistem Informasi Tata Ruang Provinsi Jawa Timur</h4>
+                                <p>Visualisasi Peta dari Data dan Informasi Geospasial Tata Ruang RTRW (Rencana Tata
+                                    Ruang
+                                    Wilayah)
+                                    Provinsi Jawa Timur RTRW 38 Kabupaten/Kota se Jawa Timur, dan RDTR (Rencana Detail
+                                    Tata
+                                    Ruang)
+                                    serta Peta Tematik Provinsi Jawa Timur</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-8">
+
+                    <div class="col-md-6">
+
                         <div class="row">
-                            <div class="col-lg-12">
-                                <div class="meeting-item" data-aos="zoom-in">
-                                    <div class="thumb">
-                                        <img src="{{asset('assets/images/content-01.jpg')}}" alt="About">
+                            <div class="col-md-6">
+                                <div class="item">
+                                    <div class="polaroid" style="text-align: center; width: 50%">
+                                        <img src="{{asset('assets/images/test_2.png')}}" alt="About">
+                                        <div class="container">
+                                            <h6 style="color: white;">SIMESI</h6>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-
+                            <div class="col-md-6">
+                                <div class="item">
+                                    <div class="polaroid" style="text-align: center; width: 50%">
+                                        <img src="{{asset('assets/images/test_2.png')}}" alt="About">
+                                        <div class="container">
+                                            <h6 style="color: white;">SIMESI</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="item">
+                                    <div class="polaroid" style="text-align: center; width: 50%">
+                                        <img src="{{asset('assets/images/test_2.png')}}" alt="About">
+                                        <div class="container">
+                                            <h6 style="color: white;">SIMESI</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="item">
+                                    <div class="polaroid" style="text-align: center; width: 50%">
+                                        <img src="{{asset('assets/images/test_2.png')}}" alt="About">
+                                        <div class="container">
+                                            <h6 style="color: white;">SIMESI</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="item">
+                                    <div class="polaroid" style="text-align: center; width: 50%">
+                                        <img src="{{asset('assets/images/test_2.png')}}" alt="About">
+                                        <div class="container">
+                                            <h6 style="color: white;">SIMESI</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="item">
+                                    <div class="polaroid" style="text-align: center; width: 50%">
+                                        <img src="{{asset('assets/images/test_2.png')}}" alt="About">
+                                        <div class="container">
+                                            <h6 style="color: white;">SIMESI</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
+
+
             </div>
         </div>
     </section>
