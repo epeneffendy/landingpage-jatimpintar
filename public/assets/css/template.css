@@ -948,6 +948,30 @@ section.abouts .categories .main-button-red a {
     text-align: center;
 }
 
+section.abouts .item {
+    background-color: rgba(250, 250, 250, 0.15);
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+section.abouts .item h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+section.abouts .item p {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
 .meeting-item {
     margin-bottom: 30px;
 }

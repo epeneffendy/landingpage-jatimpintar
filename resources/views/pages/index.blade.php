@@ -4,160 +4,77 @@
     <section class="abouts" id="abouts">
         <div class="container">
             <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h2 data-aos="zoom-out-right">Sistem Informasi Tata Ruang Provinsi Jawa Timur</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" data-aos="zoom-in">
                 <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-heading">
-                            <h2 data-aos="zoom-out-right">Sistem Informasi Tata Ruang Provinsi Jawa Timur</h2>
-                        </div>
-                    </div>
-                </div>
+                    <div class="col-lg-12 align-self-center">
+                        <div class="col-lg-12">
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="{{asset('assets/images/fitur-1.png')}}" class="img-responsive center-block d-block mx-auto" alt="Sample Image" style="width: 30%">
+                                        <h5 class="text-center" style="color: white;">Informasi Tata Ruang</h5>
+                                    </div>
+                                    <div class="col-md-4" style="text-align: center">
+                                        <img src="{{asset('assets/images/fitur-2.png')}}" class="img-responsive center-block d-block mx-auto" alt="Sample Image" style="width: 30%">
+                                        <h5 class="text-center" style="color: white;">Informasi Kesesuaian Tata Ruang</h5>
+                                    </div>
+                                    <div class="col-md-4" style="text-align: center">
+                                        <img src="{{asset('assets/images/fitur-3.png')}}" class="img-responsive center-block d-block mx-auto" alt="Sample Image" style="width: 30%">
+                                        <h5 class="text-center" style="color: white;">Monitoring Progress Rencana Tata Ruang</h5>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="{{asset('assets/images/fitur-4.png')}}" class="img-responsive center-block d-block mx-auto" alt="Sample Image" style="width: 30%">
+                                        <h5 class="text-center" style="color: white;">Neraca Penggunaan Lahan-GEE</h5>
+                                    </div>
+                                    <div class="col-md-4" style="text-align: center">
+                                        <img src="{{asset('assets/images/fitur-5.png')}}" class="img-responsive center-block d-block mx-auto" alt="Sample Image" style="width: 30%">
+                                        <h5 class="text-center" style="color: white;">E-Library</h5>
+                                    </div>
+                                    <div class="col-md-4" style="text-align: center">
+                                        <img src="{{asset('assets/images/fitur-3.png')}}" class="img-responsive center-block d-block mx-auto" alt="Sample Image" style="width: 30%">
+                                        <h5 class="text-center" style="color: white;">Indikator Kinerja Penataan Ruang</h5>
+                                    </div>
+                                </div>
 
-                <div class="row" style="text-align: center">
-                    <div class="owl-courses-item owl-carousel">
-                        <div class="item">
-                            <div class="polaroid" style="text-align: center; width: 75%">
-                                <img src="{{asset('assets/images/test_1.png')}}" alt="About">
-                                <div class="container">
-                                    <h6 style="color: white;">Sistem Informasi Rencana Tata Ruang</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="polaroid" style="text-align: center; width: 75%">
-                                <img src="{{asset('assets/images/test_2.png')}}" alt="About">
-                                <div class="container">
-                                    <h6 style="color: white;">SIMESI</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="polaroid" style="text-align: center; width: 75%">
-                                <img src="{{asset('assets/images/test_3.png')}}" alt="About">
-                                <div class="container">
-                                    <h6 style="color: white;">Indikator Kinerja Penataan Ruang</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="polaroid" style="text-align: center; width: 75%">
-                                <img src="{{asset('assets/images/test_1.png')}}" alt="About">
-                                <div class="container">
-                                    <h6 style="color: white;">Progress Penyelesaian RTRW & RDTR </h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="polaroid" style="text-align: center; width: 75%">
-                                <img src="{{asset('assets/images/test_2.png')}}" alt="About">
-                                <div class="container">
-                                    <h6 style="color: white;">Library</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="polaroid" style="text-align: center; width: 75%">
-                                <img src="{{asset('assets/images/test_3.png')}}" alt="About">
-                                <div class="container">
-                                    <h6 style="color: white;">Berita Tata Ruang </h6>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="row">
-
-                            <div class="categories" data-aos="zoom-in">
-                                <h4>Sistem Informasi Tata Ruang Provinsi Jawa Timur</h4>
-                                <p>Visualisasi Peta dari Data dan Informasi Geospasial Tata Ruang RTRW (Rencana Tata
-                                    Ruang
-                                    Wilayah)
-                                    Provinsi Jawa Timur RTRW 38 Kabupaten/Kota se Jawa Timur, dan RDTR (Rencana Detail
-                                    Tata
-                                    Ruang)
-                                    serta Peta Tematik Provinsi Jawa Timur</p>
-                            </div>
-                        </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="categories" data-aos="zoom-in">
+                        <h4>Sistem Informasi Tata Ruang Provinsi Jawa Timur</h4>
+                        <p>Visualisasi Peta dari Data dan Informasi Geospasial Tata Ruang RTRW (Rencana Tata Ruang
+                            Wilayah)
+                            Provinsi Jawa Timur RTRW 38 Kabupaten/Kota se Jawa Timur, dan RDTR (Rencana Detail Tata
+                            Ruang)
+                            serta Peta Tematik Provinsi Jawa Timur</p>
                     </div>
-
-                    <div class="col-md-6">
-
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="item">
-                                    <div class="polaroid" style="text-align: center; width: 50%">
-                                        <img src="{{asset('assets/images/test_2.png')}}" alt="About">
-                                        <div class="container">
-                                            <h6 style="color: white;">SIMESI</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="item">
-                                    <div class="polaroid" style="text-align: center; width: 50%">
-                                        <img src="{{asset('assets/images/test_2.png')}}" alt="About">
-                                        <div class="container">
-                                            <h6 style="color: white;">SIMESI</h6>
-                                        </div>
-                                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="meeting-item" data-aos="zoom-in">
+                                <div class="thumb">
+                                    <img src="{{asset('assets/images/content-01.jpg')}}" alt="About">
                                 </div>
                             </div>
                         </div>
-
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="item">
-                                    <div class="polaroid" style="text-align: center; width: 50%">
-                                        <img src="{{asset('assets/images/test_2.png')}}" alt="About">
-                                        <div class="container">
-                                            <h6 style="color: white;">SIMESI</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="item">
-                                    <div class="polaroid" style="text-align: center; width: 50%">
-                                        <img src="{{asset('assets/images/test_2.png')}}" alt="About">
-                                        <div class="container">
-                                            <h6 style="color: white;">SIMESI</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="item">
-                                    <div class="polaroid" style="text-align: center; width: 50%">
-                                        <img src="{{asset('assets/images/test_2.png')}}" alt="About">
-                                        <div class="container">
-                                            <h6 style="color: white;">SIMESI</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="item">
-                                    <div class="polaroid" style="text-align: center; width: 50%">
-                                        <img src="{{asset('assets/images/test_2.png')}}" alt="About">
-                                        <div class="container">
-                                            <h6 style="color: white;">SIMESI</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
 
                     </div>
                 </div>
-
-
             </div>
         </div>
     </section>
