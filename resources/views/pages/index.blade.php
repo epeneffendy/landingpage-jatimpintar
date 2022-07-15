@@ -42,7 +42,18 @@
                                     </div>
                                     <div class="col-md-4" style="text-align: center">
                                         <img src="{{asset('assets/images/fitur-3.png')}}" class="img-responsive center-block d-block mx-auto" alt="Sample Image" style="width: 30%">
-                                        <h5 class="text-center" style="color: white;">Indikator Kinerja Penataan Ruang</h5>
+                                        <h5 class="text-center" style="color: white;">Berita Tata Ruang</h5>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="{{asset('assets/images/fitur-4.png')}}" class="img-responsive center-block d-block mx-auto" alt="Sample Image" style="width: 30%">
+                                        <h5 class="text-center" style="color: white;">Kesesuaian Tata Ruang</h5>
+                                    </div>
+                                    <div class="col-md-4" style="text-align: center">
+                                        <img src="{{asset('assets/images/fitur-3.png')}}" class="img-responsive center-block d-block mx-auto" alt="Sample Image" style="width: 30%">
+                                        <h5 class="text-center" style="color: white;">Neraca Penggunaan Lahan</h5>
                                     </div>
                                 </div>
 
@@ -52,30 +63,7 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="categories" data-aos="zoom-in">
-                        <h4>Sistem Informasi Tata Ruang Provinsi Jawa Timur</h4>
-                        <p>Visualisasi Peta dari Data dan Informasi Geospasial Tata Ruang RTRW (Rencana Tata Ruang
-                            Wilayah)
-                            Provinsi Jawa Timur RTRW 38 Kabupaten/Kota se Jawa Timur, dan RDTR (Rencana Detail Tata
-                            Ruang)
-                            serta Peta Tematik Provinsi Jawa Timur</p>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="meeting-item" data-aos="zoom-in">
-                                <div class="thumb">
-                                    <img src="{{asset('assets/images/content-01.jpg')}}" alt="About">
-                                </div>
-                            </div>
-                        </div>
 
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 

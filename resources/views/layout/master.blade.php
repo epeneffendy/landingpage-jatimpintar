@@ -49,12 +49,12 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="caption" data-aos="fade-right">
-                        <hr style="color: white; width: 1000px; font-weight: bold; border: 1px solid">
-                        <h2>STIR JAWA TIMUR</h2>
-                        <h3>Sistem Informasi Tata Ruang Provinsi Jawa Timur</h3>
-                        <div class="main-button-red">
-                            <a href="https://jatim-pintar.com/webgis/main"  target="_blank"><div class="scroll-to-section">Go To Map!</div></a>
-                        </div>
+                        <hr style="color: white; width: 1300px; font-weight: bold; border: 1.5px solid; margin-top: 100px">
+                        <h2 style="font-size: 50px">SITR JAWA TIMUR</h2>
+                        {{--<h3>Sistem Informasi Tata Ruang Provinsi Jawa Timur</h3>--}}
+                        {{--<div class="main-button-red">--}}
+                            {{--<a href="https://jatim-pintar.com/webgis/main"  target="_blank"><div class="scroll-to-section">Go To Map!</div></a>--}}
+                        {{--</div>--}}
                     </div>
                 </div>
             </div>

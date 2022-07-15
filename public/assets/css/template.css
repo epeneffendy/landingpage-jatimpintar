@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: fontHeader;
-    src: url(../fonts/La-Compagnie-des-Hirondelles.ttf);
+    src: url(../fonts/Bellerose.ttf);
 }
 
 /*
@@ -706,7 +706,7 @@ banner
 
 .video-overlay {
     position: absolute;
-    background-color: rgba(31, 39, 43, 0.75);
+    background-color: rgba(31, 39, 43, 0.30);
     top: 0;
     left: 0;
     bottom: 0;
@@ -718,7 +718,7 @@ banner
     position: absolute;
     top: 70%;
     transform: translateY(-50%);
-    font-family: "Corbel Light";
+    font-family: fontHeader;
 
 }
 
@@ -732,7 +732,7 @@ banner
 }
 
 .main-banner .caption h2 {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
     font-size: 36px;
     text-transform: uppercase;
